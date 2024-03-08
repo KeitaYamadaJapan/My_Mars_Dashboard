@@ -1,0 +1,12 @@
+
+Hi,
+
+You are receiving this email to confirm the creation of an API key. If you did not request this, please disregard this email. Your API key for kyamada295@gmail.com is:
+
+  z0x5cWBxWrjodnlENgzAL7ZB64rJePTdlR4w6Ti4
+
+You can start using this key to make web service requests by referring to the relevant agency's API documentation. This API key is for your use and should not be shared.
+
+For additional support, please contact us. When contacting us, please tell us what API you're accessing and provide the following account details so we can quickly find you:
+Account Email: kyamada295@gmail.com
+Account ID: 79d1afd3-3067-4688-8892-824ecf8d223b
