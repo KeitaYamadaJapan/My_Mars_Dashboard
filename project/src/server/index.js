@@ -12,7 +12,6 @@ app.use(bodyParser.json())
 
 app.use('/', express.static(path.join(__dirname, '../public')))
 
-// your API calls
 
 // example API call
 app.get('/apod', async (req, res) => {
@@ -25,4 +24,36 @@ app.get('/apod', async (req, res) => {
     }
 })
 
+// my API calls
+
+// Get rover by name parameter
+app.get('/rovers/:name', async (req, res) => {
+    try {
+        let images = await fetch(`https://api.nasa.gov/mars-photos/api/v1/rovers/${req.params.name}/latest_photos?api_key=${process.env.API_KEY}`)
+            .then(res => res.json())
+        res.send(images); 
+    } catch (err) {
+        console.log('error:', err);
+    }
+})
+
+
+
+
+
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+
+
+
+//   https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
+
+//   https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=DEMO_KEY
+//   https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&camera=fhaz&api_key=DEMO_KEY
+//   https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&page=2&api_key=DEMO_KEY
+
+
+//   https://api.nasa.gov/#browseAPI
+
+//   http://localhost:3000/
+//   
