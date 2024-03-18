@@ -1,5 +1,7 @@
 # About My Project.
 
+I found the following two programs to be textbook solutions, understood them, learned from them and created my project.
+
 https://github.com/karlajaramillo/mars-dashboard?tab=readme-ov-file
 
 and
