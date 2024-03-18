@@ -1,3 +1,20 @@
+# About My Project.
+
+https://github.com/karlajaramillo/mars-dashboard?tab=readme-ov-file
+
+and
+
+https://github.com/udacity/nd032-c2-functional-programming-with-javascript-starter/tree/project/project
+
+I found these to be exemplary solutions.
+I learned a lot from them, and completed the project.
+I decided that the former was a solution worthy of being adopted in the classroom.
+I conclude that there is little room for modification regarding the tools.
+I tried to understand each tool and adapt it to my solution.
+
+
+
+
 # Functional Programming with Javascript 
 
 ## Student Instructions
@@ -67,6 +84,8 @@ Some ideas might be to incorporate the Astronomy Photo of the Day into your desi
 ### Design
 
 Create an image gallery slider, put a full page background image, code some falling asteroids with css animations ... the visual design of this UI is up to you! There is a lot of awesome dashboard design inspiration out there. You have already been given a good start with a mobile-first stylesheet already set up for you. 
+
+
 
 
 
