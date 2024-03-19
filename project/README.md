@@ -17,7 +17,9 @@ I tried to understand each tool and adapt it to my solution.
 ## Set up.
 Assuming that yarn is installed globally in your local environment.
 In case of using vscode.
+
 git clone https://github.com/KeitaYamadaJapan/My_Mars_Dashboard.git
+
 into your repository 
 And $ cd project.
 Get your key from https://api.nasa.gov/#browseAPI
