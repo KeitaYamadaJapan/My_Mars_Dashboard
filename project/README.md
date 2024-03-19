@@ -14,7 +14,24 @@ I decided that the former was a solution worthy of being adopted in the classroo
 I conclude that there is little room for modification regarding the tools.
 I tried to understand each tool and adapt it to my solution.
 
+## Set up.
+Assuming that yarn is installed globally in your local environment.
+In case of using vscode.
+git clone https://github.com/KeitaYamadaJapan/My_Mars_Dashboard.git
+into your repository 
+And $ cd project.
+Get your key from https://api.nasa.gov/#browseAPI
 
+Rename "env-sample" to ".env",
+Set the key.
+
+$ yarn install
+
+$ yarn start
+
+The project will be displayed.
+
+Below is the Readm of project Starter Code provided by Udacity.
 
 
 # Functional Programming with Javascript 
